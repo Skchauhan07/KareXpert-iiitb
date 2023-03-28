@@ -34,6 +34,7 @@ function Dashboard() {
                         <div className="card-body">
                             <h5 className="card-title">Patient</h5>
                             <button type="button" class="btn btn-success" onClick={navigatePatientLogin}>Login</button>  
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <button type="button" class="btn btn-success" onClick={navigateVideoCall}>VideoCall</button>
                             {/* <button type="button" class="btn btn-primary" onClick={gotodownloadPrescription}>Prescription Download</button> */}
                             {/* <button type="button" class="btn btn-primary" onClick={gotodownpatientpage}>patientpages</button> */}
@@ -46,8 +47,14 @@ function Dashboard() {
                         <div className="card-body">
                             <h5 className="card-title">Doctor</h5>
                             <button type="button" class="btn btn-primary" onClick={navigatePatientLogin}>Login</button>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                           
                             <button type="button" class="btn btn-primary" onClick={gotoPrescription}>Add presc.</button>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                           
                             <button type="button" class="btn btn-primary" onClick={gotoroomDoctor}>video call.</button>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                           
                         </div>
                     </div>
                 </div>
