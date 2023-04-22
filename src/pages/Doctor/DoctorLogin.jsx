@@ -16,7 +16,7 @@ function DoctorLogin() {
 
   const gotoUserPage=(e)=>{
     let doctorNumber=phoneNumber.slice(-10);
-    axios.get(`http://localhost:8081/doctor/doctor-by-contact/${doctorNumber}`)
+    axios.get(`${process.env.REACT_APP_BACKEND_URL}/doctor/doctor-by-contact/${doctorNumber}`)
     .then((response)=>{
          console.log(response.data);
          localStorage.setItem('doctor', JSON.stringify(response.data));
