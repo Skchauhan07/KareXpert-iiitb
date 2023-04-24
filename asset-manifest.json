@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/KareXpert-iiitb/static/css/main.df06bedd.css",
+    "main.js": "/KareXpert-iiitb/static/js/main.0ce3e723.js",
+    "static/media/connected-health.jpg": "/KareXpert-iiitb/static/media/connected-health.261fc4bc2962691babfb.jpg",
+    "static/media/rm208batch2-card-05.jpg": "/KareXpert-iiitb/static/media/rm208batch2-card-05.57be73a1994b69cf591a.jpg",
+    "static/media/360_F_487692869_V8MZ1hLvhXQZKT50EV8Sh13AkdibGJb3.jpg": "/KareXpert-iiitb/static/media/360_F_487692869_V8MZ1hLvhXQZKT50EV8Sh13AkdibGJb3.bc7df4eeeff3cfab26ad.jpg",
+    "index.html": "/KareXpert-iiitb/index.html",
+    "main.df06bedd.css.map": "/KareXpert-iiitb/static/css/main.df06bedd.css.map",
+    "main.0ce3e723.js.map": "/KareXpert-iiitb/static/js/main.0ce3e723.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df06bedd.css",
+    "static/js/main.0ce3e723.js"
+  ]
+}
